@@ -70,7 +70,7 @@ html {
   /* 10px / 16px = 0.625 = 62.5% */
   /* Percentage of user's browser font-size setting */
   font-size: 62.5%;
-  overflow-x: hidden;
+  /*   overflow-x: hidden; */
 }
 
 body {
@@ -101,12 +101,18 @@ body {
   row-gap: 9.6rem;
 }
 
+.grid-hero {
+  display: grid;
+  column-gap: 13rem;
+  row-gap: 9.6rem;
+}
+
 .grid:not(:last-child) {
   margin-bottom: 9.6rem;
 }
 
 .grid--2-cols {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 2fr 1.7fr
 }
 
 .grid--3-cols {
