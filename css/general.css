@@ -27,6 +27,7 @@
   - PRIMARY: 
   - Tints:
 #291A53
+#F7DF1E
   
 
   - Shades:
@@ -103,7 +104,7 @@ body {
 
 .grid-hero {
   display: grid;
-  column-gap: 13rem;
+  column-gap: 11rem;
   row-gap: 9.6rem;
 }
 
