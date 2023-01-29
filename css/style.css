@@ -1,7 +1,128 @@
+/* ******** Navigation ******** */
+/* ************************* */
+/* NAVIGATION */
+/* ************************* */
+
+.main-nav-list {
+  margin-top: 2rem;
+  margin-left: -4rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 12.8rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 2rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #3e3164;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #291a53;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #3e3164;
+}
+
+dialog::backdrop {
+  background: #3e316482;
+}
+
+.about-dialog {
+  position: absolute;
+  background-color: #ffffff;
+  padding: 2.6rem 4.6rem;
+  max-width: 45%;
+  height: 45%;
+  border: solid #291A53;
+}
+
+.about-dialog p {
+  margin-top: -0.1rem;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  letter-spacing: 0.75px;
+  text-align: start;
+}
+
+
+.modal-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0px;
+  margin-top: 0;
+  margin-left: 94%;
+  height: 40px;
+  width: 40px;
+
+  border-radius: 50%;
+  background-color: #291A53;
+}
+
+.close {
+  color: #fff;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Movile */
+
+.btn-movile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.icon-movile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+
+
+.icon-movile-nav[name="close-outline"] {
+  display: none;
+}
+
 /* ******** Hero Image ******** */
-.content-hero {
-  margin-left: 15rem;
+
+.text-content-hero {
   margin-top: 30%;
+}
+
+.content-hero {
   color: #291A53;
 }
 
@@ -17,7 +138,7 @@
   font-weight: 900;
   line-height: 1.2;
   margin-top: -1rem;
-  font-size: 5.3rem;
+  font-size: 5.2rem;
 }
 
 .content-hero span {
