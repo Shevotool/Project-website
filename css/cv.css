@@ -1,0 +1,352 @@
+/*
+      SPACING SYSTEM (px)
+      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+      FONT SIZE SYSTEM (px)
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+      */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color: #FAF4EE;
+  --right-side-cv: #fdfaf7;
+  /* trabajar en esto */
+  --white-color: #fff;
+  --font-color: rgb(5, 5, 5);
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: var(--background-color);
+  line-height: 1;
+  font-weight: 400;
+}
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+  /*   overflow-x: hidden; */
+}
+
+/* ************************* */
+/* NAVIGATION */
+/* ************************* */
+
+
+
+.main-nav-list {
+  margin-top: 2rem;
+  /*   margin-left: 15rem; */
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12.8rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 2rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #3e3164;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #291a53;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #3e3164;
+}
+
+/* ************************* */
+/* NAVIGATION DIALOG */
+/* ************************* */
+
+
+dialog::backdrop {
+  background: #3e316482;
+}
+
+.about-dialog {
+  margin: 0 auto;
+  top: 30%;
+  background-color: #ffffff;
+  padding: 2.6rem 4.6rem;
+  max-width: 51%;
+  height: 50%;
+  border: solid #291A53;
+}
+
+.about-dialog p {
+  margin-top: -0.1rem;
+  font-size: 1.8rem;
+  line-height: 1.6;
+  letter-spacing: 0.75px;
+  text-align: start;
+}
+
+.modal-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0px;
+  margin-top: 0;
+  margin-left: 94%;
+  height: 40px;
+  width: 40px;
+
+  border-radius: 50%;
+  background-color: #291A53;
+}
+
+.close {
+  color: #fff;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+}
+
+/* ************************* */
+/* DOWLOAD BUTTON */
+/* ************************* */
+.top-main {
+  margin-top: 5rem;
+}
+
+.top-main div {
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+
+  height: auto;
+  width: 15%;
+  padding: 1.8rem 3.6rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #291a53;
+}
+
+.btn:hover {
+  background-color: #3e3164;
+  transition: all 0.3s ease;
+}
+
+/* ************************* */
+/* cv */
+/* ************************* */
+
+.bottom-class {
+  margin-top: 0px;
+}
+
+.contact-header-info {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Container CV */
+
+.section-cv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* End Container CV */
+
+/* Header title */
+
+.header-title {
+  background-color: #333;
+  color: #fff;
+  height: auto;
+  width: 100%;
+}
+
+
+/* Container  */
+
+.container2 {
+  position: relative;
+  height: 1200px;
+  width: 100%;
+  max-width: 800px;
+  margin: 5rem;
+  display: grid;
+  grid-template-columns: 1.04fr 2fr;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+/* contact personal info  */
+
+.contact-link {
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+  top: -7px;
+  margin-left: 10px;
+}
+
+.contact-link2 {
+  text-decoration: none;
+  color: #fff;
+}
+
+.contact-link:hover {
+  color: var(--white-color);
+}
+
+.content-box2 {
+  padding: 10px;
+  padding-top: 0px;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.hero-icon {
+  margin-left: 0.5rem;
+}
+
+/* contact personal info  */
+
+/*  ***** Left side *****  */
+
+.container2 .left-side {
+  position: relative;
+  background: #fcf8f5;
+}
+
+.header-left {
+  font-family: "Lora", serif;
+  color: var(--font-color);
+  font-weight: 800;
+  margin-top: -0.2rem;
+  margin-bottom: 1rem;
+}
+
+/* Title right */
+.title-left {
+  font-family: "Lora", serif;
+  color: var(--font-color);
+  font-weight: 800;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.text-content {
+  color: var(--font-color);
+}
+
+.my-education p {
+  color: var(--font-color);
+  margin-left: 1rem;
+}
+
+.experience {
+  margin-top: 1rem;
+  color: var(--font-color);
+}
+
+.experience2 {
+  margin-top: 1.5rem;
+  color: var(--font-color);
+}
+
+/*  ***** End Left side *****  */
+
+/*  ***** Right side *****  */
+
+.container2 {
+  box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.07);
+}
+
+.container2 .right-side {
+  position: relative;
+  background-color: var(--right-side-cv);
+  padding: 40px;
+}
+
+.title-right {
+  color: var(--font-color);
+  font-family: "Lora", serif;
+  font-weight: 800;
+  margin-top: 3rem;
+
+}
+
+.title-job {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.my-skills {
+  margin-top: 2rem;
+}
+
+.my-skills-lang {
+  position: relative;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  margin-left: 2rem;
+}
+
+.my-skills-lang li {
+  list-style: none;
+  margin-top: 0.6rem;
+  margin-bottom: 0.5rem;
+  color: var(--font-color);
+}
+
+.languages {
+  color: var(--font-color);
+  margin-left: 1rem;
+}
+
+.position {
+  color: #333;
+  font-weight: 600;
+}
+
+/*  ***** End Right side *****  */

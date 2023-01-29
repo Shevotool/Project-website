@@ -1,4 +1,3 @@
-/* ******** Navigation ******** */
 /* ************************* */
 /* NAVIGATION */
 /* ************************* */
@@ -40,6 +39,10 @@
   background-color: #3e3164;
 }
 
+/* ************************* */
+/* NAVIGATION DIALOG */
+/* ************************* */
+
 dialog::backdrop {
   background: #3e316482;
 }
@@ -60,7 +63,6 @@ dialog::backdrop {
   letter-spacing: 0.75px;
   text-align: start;
 }
-
 
 .modal-btn {
   display: flex;
@@ -87,14 +89,9 @@ dialog::backdrop {
 
 
 
-
-
-
-
-
-
-
-/* Movile */
+/* ************************* */
+/* MOVILE  */
+/* ************************* */
 
 .btn-movile-nav {
   border: none;
@@ -110,13 +107,13 @@ dialog::backdrop {
   color: #333;
 }
 
-
-
 .icon-movile-nav[name="close-outline"] {
   display: none;
 }
 
-/* ******** Hero Image ******** */
+/* ************************* */
+/* HERO SECTION */
+/* ************************* */
 
 .text-content-hero {
   margin-top: 30%;
@@ -167,8 +164,6 @@ dialog::backdrop {
   height: 2px;
   border-bottom: 16px solid #F7DF1E;
   border-radius: 4px;
-  /* valor para hacer una curva suave */
-  /* color amarillo */
   margin-top: -13px;
   margin-left: -1rem;
 }

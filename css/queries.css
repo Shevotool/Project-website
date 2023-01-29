@@ -1,0 +1,284 @@
+/*  ***** Queries *****  */
+
+@media (max-width: 34em) {
+  .container2 {
+    margin: 10px;
+    height: 100%;
+    display: grid;
+    /* Probando altura  */
+  }
+
+  /* Header text */
+  .header-text {
+    font-size: 30px;
+    padding: 30px 5px 5px;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+  }
+
+  .header-text-dev {
+    font-size: 20px;
+    padding: 1px 5px 5px;
+    font-family: "Lora", serif;
+    text-align: center;
+  }
+
+  .header-text-dev2 {
+    font-size: 20px;
+    padding: 0px 5px 5px;
+    font-family: "Lora", serif;
+    text-align: center;
+  }
+
+  .main-nav-list {
+    font-size: 1rem;
+    gap: 15px !important;
+  }
+
+  .btn {
+    font-size: 1rem;
+    width: 40% !important;
+    margin-bottom: 3rem
+  }
+
+}
+
+@media (max-width: 44em) {
+  .container2 {
+    margin: 10px;
+    height: 100%;
+
+    /* Probando altura  */
+  }
+
+  /* Header text */
+  .header-text {
+    font-size: 3rem;
+    padding: 30px 5px 5px;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+  }
+
+  .header-text-dev {
+    font-size: 2rem;
+    padding: 1px 5px 5px;
+    font-family: "Lora", serif;
+    text-align: center;
+  }
+
+  .header-text-dev2 {
+    font-size: 2rem;
+    padding: 0px 5px 5px;
+    font-family: "Lora", serif;
+    text-align: center;
+  }
+
+  /* Header text */
+
+  .languages {
+    margin-bottom: 3rem;
+  }
+
+}
+
+
+@media (max-width:59em) {
+  .container2 {
+    margin: 10px;
+    height: 100%;
+    grid-template-columns: 1fr !important;
+    /* Probando altura  */
+
+  }
+
+  /* Header text */
+  .header-text {
+    font-size: 3rem;
+    padding: 30px 5px 5px;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+
+  }
+
+  .header-text-dev {
+    font-size: 2rem;
+    padding: 1px 5px 5px;
+    font-family: "Lora", serif;
+    text-align: center;
+  }
+
+  .header-text-dev2 {
+    font-size: 2rem;
+    padding: 0px 5px 5px;
+    font-family: "Lora", serif;
+    text-align: center;
+  }
+
+  /* Header text */
+
+  .languages {
+    margin-bottom: 3rem;
+
+  }
+}
+
+@media(max-width: 75em) {
+  .container2 {
+    margin: 10px;
+    grid-template-columns: 1.04fr 2fr;
+    height: 100%;
+    /* Probando altura  */
+    font-size: 1.6rem;
+    line-height: 1.6;
+  }
+
+  .header-text {
+    font-size: 3rem;
+    padding: 30px 5px 5px;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+  }
+
+  .header-text-dev {
+    font-size: 2rem;
+    padding: 1px 5px 5px;
+    font-family: "Lora", serif;
+    text-align: center;
+  }
+
+  .header-text-dev2 {
+    font-size: 2rem;
+    padding: 0px 5px 5px;
+    font-family: "Lora", serif;
+    text-align: center;
+  }
+
+  .languages {
+    margin-bottom: 3rem;
+  }
+
+  .my-skills-lang {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 2rem;
+  }
+
+  .main-nav-list {
+    margin-top: 3rem;
+    gap: 3.6rem;
+  }
+
+  .btn {
+    font-size: 1.6rem;
+    width: 30%;
+    margin-bottom: 3rem;
+  }
+
+
+}
+
+@media(max-width: 84em) {
+
+  /* Header text */
+  .header-text {
+    font-size: 3rem;
+    padding: 30px 5px 5px;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+  }
+
+  .header-text-dev {
+    font-size: 2rem;
+    padding: 1px 5px 5px;
+    font-family: "Lora", serif;
+    text-align: center;
+  }
+
+  .header-text-dev2 {
+    font-size: 2rem;
+    padding: 0px 5px 5px;
+    font-family: "Lora", serif;
+    text-align: center;
+  }
+
+  /* Header left */
+
+  .header-left {
+    font-size: 22px;
+  }
+
+  .title-left {
+    font-size: 2.2rem;
+  }
+
+  .title-right {
+    font-size: 2.2rem;
+  }
+
+  .flex-container {
+    display: flex;
+    gap: 30px;
+  }
+
+
+  .btn {
+    font-size: 1.6rem;
+    width: 20%;
+    margin-bottom: 3rem;
+  }
+}
+
+
+@media(min-width: 84em) {
+
+  /* Header text */
+  .header-text {
+    font-size: 3rem;
+    padding: 30px 5px 5px;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+  }
+
+  .header-text-dev {
+    font-size: 2rem;
+    padding: 1px 5px 5px;
+    font-family: "Lora", serif;
+    text-align: center;
+  }
+
+  .header-text-dev2 {
+    font-size: 2rem;
+    padding: 0px 5px 5px;
+    font-family: "Lora", serif;
+    text-align: center;
+  }
+
+  /* Header left */
+
+  .header-left {
+    font-size: 22px;
+  }
+
+  .title-left {
+    font-size: 22px;
+  }
+
+  .title-right {
+    font-size: 22px;
+  }
+
+  .flex-container {
+    display: flex;
+    gap: 30px;
+  }
+
+
+  .btn {
+    font-size: 1.6rem;
+    width: 15%;
+    margin-bottom: 2rem;
+  }
+}
+
+/*  ***** End Queries *****  */
